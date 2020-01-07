@@ -1,0 +1,5 @@
+Graphe 1 obtenu avec un Processeur 64bits à 8 coeurs, sans optimisation.
+On obtient les mêmes performances en terme de temps pour calculer fibo(18) avec la librairie pthread, que pour calculer fibo(24) avec notre librairie
+En dessous de fibo(5), la librairie pthread est meilleure.
+
+Avantage des threads noyau : gère mieux le multicoeur. Gestion automatique des threads prioritaires.
